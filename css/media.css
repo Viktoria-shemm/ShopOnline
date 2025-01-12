@@ -1,0 +1,975 @@
+@media (max-width: 1800px) {
+  .header__container {
+    grid-template-columns: 240px 700px;
+    grid-template-areas:
+      "logo logo logo"
+      "menu input icons";
+    gap: 10px 65px;
+    padding: 10px 0 40px 0;
+  }
+
+  .logo {
+    grid-area: logo;
+  }
+
+  .header__button {
+    grid-area: menu;
+  }
+
+  .search {
+    grid-area: input;
+  }
+
+  .header__list {
+    grid-area: icons;
+  }
+
+  .search__input {
+    width: 700px;
+    position: relative;
+  }
+
+  .search__button {
+    right: 0;
+  }
+
+  .grid {
+    grid-template-columns: repeat(4, 245px);
+    grid-template-areas:
+      "rectangle-1 rectangle-2 rectangle-3 rectangle-3"
+      "rectangle-5 rectangle-5 rectangle-3 rectangle-3"
+      "rectangle-4 rectangle-4 rectangle-8 rectangle-9"
+      "rectangle-6 rectangle-6 rectangle-8 rectangle-10"
+      "rectangle-7 rectangle-7 rectangle-7 rectangle-7"
+      "rectangle-7 rectangle-7 rectangle-7 rectangle-7";
+  }
+
+  .container {
+    max-width: 1450px;
+    margin: 0 auto;
+  }
+
+  .promo__container {
+    padding: 60px 145px;
+  }
+
+  .banner__container {
+    height: 393px;
+    background-size: contain;
+  }
+
+  .banner__timer {
+    left: 500px;
+  }
+
+  .banner__text {
+    right: 673px;
+  }
+
+  .banner__title {
+    top: 75px;
+  }
+}
+
+@media (max-width: 1470px) {
+  .header__container {
+    grid-template-areas:
+      "logo icons"
+      "menu input";
+    gap: 25px 65px;
+    padding: 20px 0 40px 0;
+  }
+
+  .header__list {
+    justify-content: end;
+    padding-right: 15px;
+  }
+
+  .promo__container {
+    padding: 0px 45px;
+  }
+
+  .container {
+    max-width: 1250px;
+  }
+
+  .banner__timer {
+    bottom: 95px;
+    left: 405px;
+  }
+
+  .banner__text {
+    bottom: 165px;
+    right: 580px;
+  }
+}
+
+@media (max-width: 1260px) {
+  .promo__container {
+    display: flex;
+    justify-content: center; /* Центрирует по горизонтали */
+    align-items: center; /* Центрирует по вертикали */
+  }
+
+  .grid {
+    justify-content: center; /* Центрирует контент внутри grid */
+  }
+
+  .promo__container {
+    padding: 0;
+  }
+
+  .banner__container {
+    background-image: url(../img/banner/banner-2.jpg);
+  }
+
+  .banner__container {
+    height: 384px;
+    margin-bottom: 40px;
+  }
+
+  .container {
+    max-width: 1150px;
+  }
+
+  .banner__timer {
+    bottom: 45px;
+    left: 365px;
+  }
+
+  .banner__text {
+    bottom: 125px;
+    right: 520px;
+  }
+
+  .banner__title {
+    font-size: 65px;
+    left: 65px;
+  }
+}
+
+@media (max-width: 1185px) {
+  .header__container {
+    gap: 15px 0px;
+    padding: 34px 0 60px 0;
+    width: 940px;
+    height: 243px;
+  }
+
+  .header__logo {
+    margin-left: 1px;
+    margin-top: 22px;
+  }
+
+  .header__button {
+    margin-top: 23px;
+    margin-left: 0px;
+  }
+
+  .search__button {
+    top: 23px;
+  }
+
+  .search__input {
+    margin-top: 24px;
+    padding-left: 40px;
+    padding-bottom: 5px;
+  }
+
+  .header__list {
+    gap: 0 41px;
+    padding-right: 0;
+  }
+
+  .header__item--favorite::before {
+    left: 23px;
+  }
+
+  .header__item--person::before {
+    left: 17px;
+  }
+
+  .header__item--cart::before {
+    left: 15px;
+  }
+
+  .banner__frame {
+    margin-right: 11px;
+    margin-left: 8px;
+  }
+
+  .banner__frame:first-child {
+    margin-left: 0;
+  }
+
+  .banner__container {
+    height: 314px;
+    margin-bottom: 22px;
+  }
+
+  .container {
+    max-width: 940px;
+  }
+
+  .banner__title {
+    font-size: 40px;
+    width: 401px;
+    height: 104px;
+    left: 80px;
+    top: 83px;
+  }
+
+  .banner__timer {
+    font-size: 19px;
+    bottom: 34px;
+    left: 315px;
+  }
+
+  .banner__frame {
+    font-size: 40px;
+    margin-right: 3px;
+    margin-left: 17px;
+  }
+
+  .banner__text {
+    bottom: 96px;
+    right: 407px;
+  }
+
+  .grid {
+    grid-auto-rows: 217px;
+    grid-template-columns: repeat(4, 217px);
+    gap: 24px;
+  }
+
+  .promo__rectangle {
+    background-size: contain;
+  }
+
+  .rectangle-4 {
+    background-image: url(../img/promo/Rectangle_4.1.jpg);
+  }
+
+  .rectangle-5 {
+    background-image: url(../img/promo/Rectangle_5.1.jpg);
+  }
+
+  .rectangle-6 {
+    background-image: url(../img/promo/Rectangle_6.1.jpg);
+  }
+
+  .rectangle-7 {
+    background-image: url(../img/promo/Rectangle_7.1.jpg);
+  }
+
+  .rectangle-8 {
+    background-image: url(../img/promo/Rectangle_8.1.jpg);
+  }
+
+  .rectangle-2__ellipse {
+    right: 10px;
+    bottom: 10px;
+  }
+
+  .rectangle-5__ellipse {
+    left: 10px;
+    top: 10px;
+  }
+
+  .rectangle-6__ellipse {
+    right: 10px;
+    bottom: 10px;
+  }
+
+  .rectangle-8__ellipse {
+    right: 10px;
+    bottom: 10px;
+  }
+
+  .rectangle-9__ellipse {
+    left: 10px;
+    top: 10px;
+  }
+
+  .rectangle-1__text {
+    width: 190px;
+    height: 74px;
+    font-size: 24px;
+    line-height: 32px;
+    left: 9px;
+    top: 129px;
+  }
+
+  .rectangle-1__b {
+    padding-right: 21px;
+    font-size: 30px;
+  }
+
+  .rectangle-2__text {
+    font-size: 24px;
+    left: 10px;
+    bottom: 121px;
+  }
+
+  .rectangle-3__text {
+    width: 414px;
+    height: 146px;
+    padding: 29px 25px;
+    font-size: 30px;
+    line-height: 42px;
+    left: 22px;
+    bottom: 22px;
+  }
+
+  .rectangle-3__span {
+    font-size: 40px;
+    padding-left: 0px;
+    padding-top: 3px;
+  }
+
+  .rectangle-4__text {
+    font-size: 30px;
+    line-height: 39px;
+    left: 20px;
+    bottom: -7px;
+  }
+
+  .rectangle-6__text {
+    font-size: 30px;
+    left: 20px;
+    bottom: 11px;
+  }
+
+  .rectangle-7__text {
+    width: 513px;
+    height: 83px;
+    font-size: 30px;
+    padding: 26px 46px;
+    line-height: 120%;
+    left: 30px;
+    bottom: 79px;
+    border-radius: 16px;
+  }
+
+  .rectangle-9__text {
+    font-size: 20px;
+    left: 14px;
+    bottom: 5px;
+  }
+}
+
+@media (max-width: 990px) {
+  .container {
+    max-width: 700px;
+  }
+
+  .header__container {
+    gap: 0px 0px;
+    padding: 12px 0 0 0;
+    width: 700px;
+    height: 135px;
+    grid-template-columns: 160px 545px;
+    margin-bottom: 55px;
+  }
+
+  .header__logo {
+    background-image: url(../img/header/logo_768.svg);
+    margin-left: 3px;
+    margin-top: 32px;
+  }
+
+  .header__button {
+    width: 117px;
+    height: 42px;
+    font-size: 16px;
+    margin-top: 30px;
+    margin-left: 0px;
+    padding-bottom: 4px;
+    border-radius: 6px;
+  }
+
+  .header__link {
+    font-size: 12px;
+  }
+
+  .header__item--person::before {
+    width: 20px;
+    height: 20px;
+    background-image: url(../img/header/person_768.svg);
+    left: 17px;
+    bottom: 18px;
+  }
+
+  .header__item--cart::before {
+    width: 25px;
+    height: 25px;
+    background-image: url(../img/header/cart_768.svg);
+    left: 11px;
+    bottom: 16px;
+  }
+
+  .header__item--favorite::before {
+    width: 26px;
+    height: 23px;
+    background-image: url(../img/header/favorite_768.svg);
+    left: 18px;
+    bottom: 17px;
+  }
+
+  .header__list {
+    height: 16px;
+    gap: 0 31px;
+    padding-right: 3px;
+  }
+
+  .search__input {
+    width: 540px;
+    height: 42px;
+    font-size: 12px;
+    padding-left: 32px;
+    margin-top: 15px;
+  }
+
+  .search__button {
+    width: 82px;
+    height: 42px;
+    top: 15px;
+    left: 460px;
+  }
+
+  .search {
+    width: 540px;
+    height: 42px;
+  }
+
+  .search__img {
+    background-image: url(../img/header/search_768.svg);
+    width: 22px;
+    height: 22px;
+  }
+
+  .banner__container {
+    height: 280px;
+    margin-bottom: 28px;
+    background-image: url(../img/banner/banner-3.jpg);
+  }
+
+  .banner__title {
+    font-size: 30px;
+    left: 80px;
+    top: 67px;
+  }
+
+  .banner__text {
+    bottom: 77px;
+    right: 304px;
+    font-size: 12px;
+  }
+
+  .banner__timer {
+    font-size: 15px;
+    bottom: 27px;
+    left: 233px;
+  }
+
+  .banner__frame {
+    margin-right: 4px;
+    margin-left: 4px;
+    font-size: 31px;
+  }
+
+  .grid {
+    display: none;
+  }
+
+  .grid-768 {
+    display: grid;
+    grid-template-columns: 300px 380px;
+    grid-template-rows: 380px 140px 60px 337px;
+    gap: 20px;
+    grid-template-areas:
+      "block-1 rectangle-3"
+      "block-1 block-2"
+      "block-1 block-2"
+      "rectangle-7 rectangle-7";
+  }
+
+  .block-1 {
+    display: grid;
+    grid-template-columns: 140px 140px;
+    grid-template-rows: 140px 140px 140px 140px;
+    gap: 20px;
+    grid-template-areas:
+      "rectangle-1 rectangle-2"
+      "rectangle-5 rectangle-5"
+      "rectangle-4 rectangle-4"
+      "rectangle-6 rectangle-6";
+    grid-area: block-1;
+  }
+
+  .block-2 {
+    display: grid;
+    grid-template-columns: 220px 140px;
+    grid-template-rows: 140px 60px;
+    gap: 20px;
+    grid-template-areas:
+      "rectangle-8 rectangle-9"
+      "rectangle-8 rectangle-10";
+    grid-area: block-2;
+  }
+
+  .rectangle-7 {
+    background-image: url(../img/promo/Rectangle_7.2.jpg);
+  }
+
+  .rectangle-8 {
+    background-image: url(../img/promo/Rectangle_8.2.jpg);
+  }
+
+  .rectangle-10 {
+    background-image: url(../img/promo/Rectangle_10.1.jpg);
+  }
+
+  .promo__container {
+    min-height: 1000px;
+  }
+
+  .rectangle-1__b {
+    padding-right: 0px;
+    font-size: 25px;
+  }
+
+  .rectangle-1__text {
+    width: 126px;
+    height: 77px;
+    font-size: 20px;
+    line-height: 110%;
+    left: 11px;
+    bottom: 12px;
+    top: 55px;
+  }
+
+  .rectangle-2__text {
+    font-size: 16px;
+    left: 5px;
+    bottom: 102px;
+    line-height: 130%;
+  }
+
+  .ellipse {
+    width: 50px;
+    height: 50px;
+    font-size: 16px;
+  }
+
+  .promo__rectangle {
+    background-size: cover;
+  }
+
+  .rectangle-3__text {
+    width: 360px;
+    height: 61px;
+    padding: 12px 28px;
+    font-size: 16px;
+    line-height: 42px;
+    left: 10px;
+    bottom: 10px;
+    border-radius: 12px;
+  }
+
+  .rectangle-3__span {
+    font-size: 26px;
+    padding-left: 0px;
+    padding-top: 0px;
+  }
+
+  .rectangle-4__text {
+    font-size: 16px;
+    line-height: 19px;
+    left: 20px;
+    bottom: 18px;
+    width: 136px;
+    height: 38px;
+  }
+
+  .rectangle-6__text {
+    font-size: 16px;
+    left: 20px;
+    bottom: 2px;
+  }
+
+  .rectangle-9 {
+    background-image: url(../img/promo/Rectangle_9.1.jpg);
+  }
+
+  .rectangle-3 {
+    background-image: url(../img/promo/Rectangle_3.1.jpg);
+  }
+
+  .rectangle-9__text {
+    font-size: 16px;
+    left: 14px;
+    bottom: 12px;
+    line-height: 19px;
+  }
+
+  .rectangle-7__text {
+    width: 347px;
+    height: 68px;
+    font-size: 20px;
+    padding: 24px 33px;
+    line-height: 120%;
+    left: 26px;
+    bottom: 26px;
+    border-radius: 12px;
+  }
+}
+
+@media (max-width: 750px) {
+  .container {
+    max-width: 547px;
+  }
+
+  .header__link {
+    display: none;
+  }
+
+  .header__container {
+    grid-template-areas:
+      "logo logo"
+      "menu icons"
+      "input input";
+    padding: 25px 0 0 0;
+    gap: 0;
+    width: 547px;
+    height: 179px;
+    grid-template-columns: 169px 375px;
+    grid-template-rows: 41px 56px 56px;
+    margin-bottom: 25px;
+  }
+
+  .header__logo {
+    margin: 0;
+  }
+
+  .header__button {
+    margin: 0;
+  }
+
+  .search__input {
+    margin: 0;
+  }
+
+  .header__item {
+    height: 19px;
+    width: 51px;
+  }
+
+  .header__item--person::before {
+    left: 0px;
+    bottom: 0px;
+  }
+
+  .header__item--cart::before {
+    left: 0px;
+    bottom: 0px;
+  }
+
+  .header__item--favorite::before {
+    left: 0px;
+    bottom: 0px;
+  }
+
+  .search__button {
+    top: 0px;
+  }
+
+  .banner__container {
+    height: 219px;
+  }
+
+  .banner__title {
+    font-size: 30px;
+    left: 30px;
+    top: 39px;
+  }
+
+  .banner__timer {
+    bottom: 32px;
+    left: 158px;
+  }
+
+  .banner__text {
+    right: 238px;
+  }
+
+  .grid-768 {
+    display: none;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-areas:
+      "rectangle-1 rectangle-2"
+      "rectangle-5 rectangle-5"
+      "rectangle-3 rectangle-3"
+      "rectangle-4 rectangle-4"
+      "rectangle-6 rectangle-6"
+      "rectangle-8 rectangle-9"
+      "rectangle-8 rectangle-10"
+      "rectangle-7 rectangle-7";
+    grid-template-columns: 200px 200px;
+    grid-template-rows: 200px 200px 422px 200px 200px 200px 200px 204px;
+  }
+
+  .rectangle-8__ellipse {
+    right: 25px;
+  }
+
+  .rectangle-8 {
+    background-image: url(../img/promo/Rectangle_8.jpg);
+  }
+
+  .rectangle-10 {
+    background-image: url(../img/promo/Rectangle_10.jpg);
+  }
+
+  .promo__rectangle {
+    background-size: contain;
+  }
+}
+
+@media (max-width: 570px) {
+  .container {
+    max-width: 280px;
+  }
+
+  .header__container {
+    padding: 24px 0 0 0;
+    gap: 3px 0;
+    width: 280px;
+    height: 162px;
+    grid-template-columns: 114px 166px;
+    grid-template-rows: 30px 45px 62px;
+    margin-bottom: 24px;
+  }
+
+  .search__input {
+    width: 280px;
+    height: 30px;
+    font-size: 8px;
+    padding-left: 16px;
+    padding-top: 4px;
+  }
+
+  .search__button {
+    width: 50px;
+    height: 30px;
+    left: 230px;
+  }
+
+  .header__button {
+    width: 79px;
+    height: 30px;
+    font-size: 12px;
+    border-radius: 4px;
+    padding-bottom: 0px;
+  }
+
+  .header__logo {
+    background-image: url(../img/header/logo_320.svg);
+    height: 29px;
+  }
+
+  .header__button::before {
+    background-image: url(../img/header/menu_320.svg);
+    width: 16px;
+    height: 12px;
+  }
+
+  .search__img {
+    background-image: url(../img/header/search_320.svg);
+    width: 16px;
+    height: 13px;
+  }
+
+  .header__item--person::before {
+    left: 41px;
+    bottom: 15px;
+  }
+
+  .header__item--cart::before {
+    left: 22px;
+    bottom: 13px;
+  }
+
+  .header__item--favorite::before {
+    left: 9px;
+    bottom: 14px;
+  }
+
+  .banner__container {
+    height: 340px;
+    background-image: url(../img/banner/banner-4.jpg);
+    margin-bottom: 20px;
+  }
+
+  .banner__title {
+    font-size: 21px;
+    left: 32px;
+    top: 50px;
+  }
+
+  .banner__title {
+    font-size: 22px;
+    left: 29px;
+    top: 52px;
+    width: 222px;
+    height: 29px;
+  }
+
+  .banner__text {
+    bottom: 61px;
+    right: 108px;
+    font-size: 8px;
+  }
+
+  .banner__timer {
+    bottom: 29px;
+    left: 58px;
+    font-size: 12px;
+  }
+
+  .banner__frame {
+    margin-right: 0px;
+    margin-left: 5px;
+    font-size: 19px;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-areas:
+      "rectangle-1 rectangle-2"
+      "rectangle-5 rectangle-5"
+      "rectangle-3 rectangle-3"
+      "rectangle-4 rectangle-4"
+      "rectangle-6 rectangle-6"
+      "rectangle-8 rectangle-9"
+      "rectangle-8 rectangle-10"
+      "rectangle-7 rectangle-7";
+    grid-template-columns: 130px 130px;
+    grid-template-rows: 130px 118px 280px 118px 118px 130px 130px 123px;
+    gap: 20px;
+  }
+
+  .promo__rectangle {
+    background-size: cover;
+  }
+
+  .rectangle-1__text {
+    width: 65px;
+    height: 44px;
+    font-size: 12px;
+    left: 10px;
+    bottom: 0;
+    top: 80px;
+  }
+
+  .rectangle-1__b {
+    font-size: 16px;
+  }
+
+  .rectangle-2__text {
+    font-size: 12px;
+    left: 10px;
+    bottom: 84px;
+  }
+
+  .rectangle-2__ellipse {
+    right: 5px;
+    bottom: 5px;
+  }
+
+  .rectangle-5__ellipse {
+    left: 5px;
+    top: 5px;
+  }
+
+  .rectangle-6__ellipse {
+    right: 5px;
+    bottom: 5px;
+  }
+
+  .rectangle-9__ellipse {
+    left: 5px;
+    top: 5px;
+  }
+
+  .rectangle-8__ellipse {
+    right: 10px;
+    bottom: 10px;
+  }
+
+  .rectangle-3__text {
+    width: 260px;
+    height: 36px;
+    padding: 0px 25px;
+    font-size: 12px;
+    line-height: 38px;
+    border-radius: 8px;
+  }
+
+  .rectangle-3__span {
+    font-size: 16px;
+  }
+
+  .rectangle-4__text {
+    font-size: 12px;
+    left: 10px;
+    bottom: 17px;
+    width: 181px;
+    height: 14px;
+  }
+
+  .rectangle-6__text {
+    font-size: 12px;
+    left: 10px;
+    bottom: -4px;
+  }
+
+  .rectangle-9__text {
+    font-size: 12px;
+    left: 9px;
+    bottom: 6px;
+  }
+
+  .rectangle-7__text {
+    width: 250px;
+    height: 30px;
+    font-size: 12px;
+    padding: 8px 41px;
+    left: 15px;
+    bottom: 10px;
+    border-radius: 6px;
+  }
+
+  .rectangle-4 {
+    background-image: url(../img/promo/Rectangle_4.2.jpg);
+  }
+
+  .rectangle-5 {
+    background-image: url(../img/promo/Rectangle_5.2.jpg);
+  }
+
+  .rectangle-6 {
+    background-image: url(../img/promo/Rectangle_6.2.jpg);
+  }
+
+  .rectangle-7 {
+    background-image: url(../img/promo/Rectangle_7.3.jpg);
+  }
+
+  .rectangle-8 {
+    background-image: url(../img/promo/Rectangle_8.3.jpg);
+  }
+}

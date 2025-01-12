@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopOnline</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preload" href="fonts/lato-regular.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/lato-bold.woff2" as="font" type="font/woff2" crossorigin>  
+    <link rel="preload" href="fonts/DroidSerif.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/DroidSerif-Bold.woff2" as="font" type="font/woff2" crossorigin>
+</head>
+<body class="page">
+    <header class="header">
+        <div class="container header__container">
+            <div class="header__logo"></div>
+            <button class="header__button">Меню</button>
+            <div class="search">
+                <input class="search__input" type="text" onfocus="this.type='search'" onblur="if(this.value === '') { this.type='text'; }" name="search" placeholder="Я ищу..." required="">
+                <button class="search__button"><span class="search__img"></span></button>
+            </div>
+            <ul class="header__list">
+                <li class="header__item header__item--person"><a class="header__link" href="#!">Профиль</a></li>
+                <li class="header__item header__item--cart"><a class="header__link" href="#!">Корзина</a></li>
+                <li class="header__item header__item--favorite"><a class="header__link" href="#!">Избранное</a></li>
+            </ul>
+        </div>
+    </header>
+    <main class="main">
+        <section class="banner">
+            <div class="container banner__container">
+                <h1 class="banner__title">-50% на все ноутбуки</h1>
+                <p class="banner__text">До конца акции:</p>
+                <p class="banner__timer"><span class="banner__frame">3</span> дня  <span class="banner__frame">8</span> часов  <span class="banner__frame">43</span> минуты</p>
+            </div>
+        </section>
+        <section class="promo">
+            <div class="container promo__container">
+                <div class="grid">
+                    <div class="promo__rectangle rectangle-1"><p class="rectangle-1__text"><b class="rectangle-1__b">Книга -</b> лучший подарок</p></div>
+                    <div class="promo__rectangle rectangle-2"><p class="rectangle-2__text">Время скидок!</p><span class="ellipse rectangle-2__ellipse">-25%</span></div>
+                    <div class="promo__rectangle rectangle-3"><p class="rectangle-3__text">Вторая пара кроссовок <span class="rectangle-3__span">в подарок!</span></p></div>
+                    <div class="promo__rectangle rectangle-4"><p class="rectangle-4__text">Идеи новогодних подарков</p></div>
+                    <div class="promo__rectangle rectangle-5"><span class="ellipse rectangle-5__ellipse">-40%</span></div>
+                    <div class="promo__rectangle rectangle-6"><p class="rectangle-6__text">Выгодно в декабре!</p><span class="ellipse rectangle-6__ellipse">-15%</span></div>
+                    <div class="promo__rectangle rectangle-7"><p class="rectangle-7__text">Новогодние украшения</p></div>
+                    <div class="promo__rectangle rectangle-8"><span class="ellipse rectangle-8__ellipse">-55%</span></div>
+                    <div class="promo__rectangle rectangle-9"><p class="rectangle-9__text">На бытовую химию</p><span class="ellipse rectangle-9__ellipse">-25%</span></div>
+                    <div class="promo__rectangle rectangle-10"></div>
+                </div>
+                <div class="grid-768">
+                    <div class="block-1">
+                        <div class="promo__rectangle rectangle-1"><p class="rectangle-1__text"><b class="rectangle-1__b">Книга -</b> лучший подарок</p></div>
+                        <div class="promo__rectangle rectangle-2"><p class="rectangle-2__text">Время скидок!</p><span class="ellipse rectangle-2__ellipse">-25%</span></div>
+                        <div class="promo__rectangle rectangle-4"><p class="rectangle-4__text">Идеи новогодних подарков</p></div>
+                        <div class="promo__rectangle rectangle-5"><span class="ellipse rectangle-5__ellipse">-40%</span></div>
+                        <div class="promo__rectangle rectangle-6"><p class="rectangle-6__text">Выгодно в декабре!</p><span class="ellipse rectangle-6__ellipse">-15%</span></div>
+                    </div>
+                    <div class="promo__rectangle rectangle-3"><p class="rectangle-3__text">Вторая пара кроссовок <span class="rectangle-3__span">в подарок!</span></p></div>
+                    <div class="promo__rectangle rectangle-7"><p class="rectangle-7__text">Новогодние украшения</p></div>
+                    <div class="block-2">
+                        <div class="promo__rectangle rectangle-8"><span class="ellipse rectangle-8__ellipse">-55%</span></div>
+                        <div class="promo__rectangle rectangle-9"><p class="rectangle-9__text">На бытовую химию</p><span class="ellipse rectangle-9__ellipse">-25%</span></div>
+                        <div class="promo__rectangle rectangle-10"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>

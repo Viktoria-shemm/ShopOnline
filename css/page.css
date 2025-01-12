@@ -1,0 +1,44 @@
+.page {
+  margin: 0 auto;
+  padding-bottom: 25px;
+}
+
+@font-face {
+  font-family: lato;
+  src: local("lato regular"), local(lato-regular),
+    url(../fonts/lato-regular.woff2) format(woff2);
+  src: local("lato regular"), local(lato-regular),
+    url(../fonts/lato-regular.woff) format(woff);
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: lato;
+  src: local("lato bold"), local(lato-bold),
+    url(../fonts/lato-bold.woff2) format(woff2);
+  src: local("lato bold"), local(lato-bold),
+    url(../fonts/lato-bold.woff) format(woff);
+  font-weight: 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Droid Serif";
+  src: local("Droid Serif regular"), local(Droid-Serif-regular),
+    url(../fonts/DroidSerif.woff2) format(woff2);
+  src: local("Droid Serif regular"), local(Droid-Serif-regular),
+    url(../fonts/DroidSerif.woff) format(woff);
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Droid Serif";
+  src: local("Droid Serif bold"), local(Droid-Serif-bold),
+    url(../fonts/DroidSerif-Bold.woff2) format(woff2);
+  src: local("Droid Serif bold"), local(Droid-Serif-bold),
+    url(../fonts/DroidSerif-Bold.woff) format(woff);
+  font-weight: 700;
+  font-display: swap;
+}

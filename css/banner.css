@@ -1,0 +1,53 @@
+.banner {
+}
+
+.banner__container {
+  background-image: url(../img/banner/banner.jpg);
+  background-repeat: no-repeat;
+  height: 480px;
+  margin-bottom: 60px;
+  position: relative;
+}
+
+.banner__title {
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 130%;
+  text-align: left;
+  position: absolute;
+  left: 112px;
+  top: 145px;
+}
+
+.banner__text {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 130%;
+  text-align: left;
+  position: absolute;
+  right: 823px;
+  bottom: 123px;
+}
+
+.banner__timer {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 130%;
+  text-align: left;
+  position: absolute;
+  left: 649px;
+  bottom: 40px;
+}
+
+.banner__frame {
+  font-size: 60px;
+  font-weight: 700;
+  line-height: 130%;
+  text-align: left;
+  margin-right: 11px;
+  margin-left: 8px;
+}
+
+.banner__frame:first-child {
+  margin-left: 0;
+}
